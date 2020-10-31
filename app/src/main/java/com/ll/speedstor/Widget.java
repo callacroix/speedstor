@@ -41,7 +41,7 @@ public class Widget extends AppWidgetProvider {
 
         // Construct the RemoteViews object.
         RemoteViews views = new RemoteViews(context.getPackageName(),
-                R.layout.new_app_widget);
+                R.layout.app_widget);
         views.setTextViewText(R.id.appwidget_id,
                 String.valueOf(appWidgetId));
         views.setTextViewText(R.id.appwidget_update,
